@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8; /* Light background for the whole page */
+}
+
+.home-container {
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #c9362b; /* Blue background for the navbar */
+    padding: 10px 20px;
+    position: relative; /* Positioning context for child elements */
+}
+
+.nav-links {
+    position: absolute; /* Position the nav links */
+    top: 10px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    display: flex;
+    gap: 15px; /* Space between links */
+}
+
+.nav-links a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 15px; /* Add some padding */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.nav-links a:hover {
+    background-color: #ac301a; /* Darker blue on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.hero-section {
+    text-align: center;
+    background-color: #d3352f; /* Blue background for the hero section */
+    color: white;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #28a745; /* Green button for calls to action */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.about, .features, .cta {
+    background-color: white; /* White background for content sections */
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px; /* Slight rounding for corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.features {
+    text-align: center;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f1f1f1; /* Light gray background for feature items */
+    border-radius: 5px;
+    text-align: center;
+    min-width: 200px; /* Minimum width for feature items */
+}
+
+.feature-item h3 {
+    margin-top: 0;
+}
+
+
